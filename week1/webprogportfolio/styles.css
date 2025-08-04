@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+
+}
+
+body {
+  height: 100vh;
+  background-color: rgb(8, 23, 92);
+  background-image: url('mountains-in-dark-night-wallpapers-42360-5585-7960754.png');
+  background-size: cover;
+  background-position: center;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 1rem;
+}
+
+a:hover {
+  color: rgb(0, 125, 241);
+}
+
+header {
+  position: relative;
+  padding: 0 2rem;
+}
+
+.navbar {
+  width: 100%;
+  height: 60px;
+  padding-top: 5px;
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .logo a {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar .links {
+  display: flex;
+  gap: 3rem;
+}
+
+.navbar .toggle_btn {
+  color: rgb(0, 81, 255);
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: none;
+}
+
+.action_btn {
+  background-color: rgb(1 , 32, 167);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.action_btn:hover{
+  scale: 1.05;
+  color: aliceblue;
+}
+
+section#home {
+  height: calc(80vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: aliceblue;
+}
+
+#home h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: aliceblue;
+}
+
+#home p {
+  color: aliceblue;
+  font-size: 1.5rem;
+}
+
+#home img {
+  margin-top: 2rem;
+  border-radius: 35%;  
+  border-color: blue ;
+  height: 22rem;
+  width: 23rem;
+}
+
+footer {
+  background-color: #02033a94;
+  color: aliceblue;
+  padding: 60px 0;
+  font-size: 16px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-column {
+  width: 25%;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.footer-column h3 {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.footer-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-list li {
+  margin-left: -20px;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.footer-list li a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.footer-list li a:hover {
+  color: aliceblue;
+}
+
+.footer-bottom {
+  text-align: center;
+}
