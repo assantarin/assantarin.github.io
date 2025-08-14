@@ -1,0 +1,103 @@
+body {
+    background-color: #16365d;
+    font-family: arial;
+    font-size: 22px;
+}
+h1 {
+    color: white;
+    text-align: right;
+}
+.media {
+    color: red;
+    text-align: center;
+}
+p {
+    color: white;
+}
+.centerp {
+    color: white;
+    text-align: center;
+    margin-top: -20px;
+}
+.pformat {
+    margin-left: 50px;
+}
+.smallerp {
+    font-size: 21px;
+}
+.leftp {
+    text-align: right;
+    font-size: 21px;
+    margin-top: -20px;
+    margin-right: 35px;
+}
+h2 {
+    color: rgb(3, 202, 3);
+}
+h3 {
+    color: yellow;
+    border-bottom: 2px solid yellow;
+    padding-left: 120px;
+    width: 20%;
+}
+ul {
+    color: white;
+}
+.span1 {
+    color: red;
+    font-style: italic;
+}
+.span2 {
+    color: magenta;
+    font-weight: bold;
+}
+.span3 {
+    color: red;
+    text-decoration: underline;
+}
+.span4 {
+    color: yellow;
+    text-decoration: underline;
+}
+.span5 {
+    color: blue;
+    font-weight: 300;
+}
+.span6 {
+    color: rgb(51, 252, 51);
+    font-weight: bold;
+}
+.span7 {
+    color: blue;
+    font-weight: bold;
+}
+.span8 {
+    color: crimson;
+    font-weight: bolder;
+}
+.span9 {
+    color: black;
+    font-weight: 600;
+    background-color: rgb(4, 233, 4);
+}
+
+.par1 {
+    background-color: black;
+    text-align: left;
+    width: 50%;
+    border-top: 2px solid red;
+    border-left: 2px solid red;
+    padding-bottom: 50px;
+}
+.par2 {
+    background-color: black;
+    text-align: left;
+    width: 100%;
+    border-left: 2px solid red;
+    padding: 20px;
+    font-style: italic;
+}
+.par3 {
+    background-color: red;
+    color: white;
+}
