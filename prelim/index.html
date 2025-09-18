@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Arat Na Travel</title>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo"><img src="images/plane.png" alt="Plane Logo">Arat Na Travel</div>
+            <ol class="links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">About</a></li>
+            </ol>
+        </div>
+    </header>
+
+    <main>
+        <section class="bg">
+            <div><img src="images/3planes.jpg" alt="3 airplanes"></div>
+            <form class="signin">
+                <h2>Create an Account</h2><br>
+                <div>
+                    <label for="fname">First name</label> <br>
+                    <input type="text" id="fname" name="fname" placeholder="Mark" required>
+                </div>
+    
+                <br>
+    
+                <div>
+                    <label for="lname">Last name</label> <br>
+                    <input type="text" id="lname" name="lname" placeholder="Otto" required>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="uname">Username</label> <br>
+                    <input type="text" id="uname" name="uname" placeholder="@" required>
+                </div>
+
+                <div class="csz">
+                    <div><label for="city">City</label> <br>
+                    <input type="text" id="city" name="city"required></div>
+
+                    <select id="payment" name="payment">
+                        <option value="visa">Negros Oriental</option>
+                        <option value="mastercard">Cebu</option>
+                        <option value="giftcard">Iloilo</option>
+                    </select>
+
+                    <div></div><label for="zip">Zip</label> <br>
+                    <input type="text" id="zip" name="zip"required></div>
+                </div>
+
+                <div>
+                    <label for="subscribe">Agree to Terms and conditions</label>
+                    <input type="checkbox" id="subscribe" name="subscribe" min="0" max="99" value="1">
+                </div>
+
+                <div class="submit">
+                    <input type="submit" value="Create account" class="create">
+                </div>
+    
+            </form>
+        </section>
+    </main>
+
+</body>
+</html>
