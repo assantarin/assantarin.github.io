@@ -1,0 +1,50 @@
+* {
+  font-family: 'Nunito';
+}
+
+.navbar {
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.custom-rounded {
+  border-radius: 50px;
+}
+
+.custom-coral {
+  background-color: #f86d72;
+  color: white;
+  padding: 15px 30px;
+  font-size: 15px;
+  width: 200px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.custom-coral:hover {
+  background-color: #f86d72;
+  transform: translateY(-3px);
+}
+
+.holder {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.container p {
+  font-size: larger;
+}
+
+.card {
+  transition: all 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-3px);
+}
+
+.cat-btn {
+  width: auto;
+  min-width: unset;
+  padding: 6px 16px;
+  border-radius: 8px;
+}
